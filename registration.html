@@ -1,0 +1,96 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+	<link href="css/style_registration.css" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="img/icon.png">
+	<script src="js/js_registration.js"></script>
+	<script>
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<form action="php/registration_details.php" method="POST">
+		<div class="navbar">
+			<img src="" class="logo">
+			<nav>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="registration.html">REGISTRATION</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="contact_us.html">CONTACT US</a></li>
+				</ul>
+			</nav>
+		</div>
+		<label for="name">Enter your name:</label>
+		<input type="text" id="name" name="name" placeholder="Name">
+		<label for="state">State:</label>
+		<select id="state" name="state">
+			<option value="Andhra Pradesh">Andhra Pradesh</option>
+			<option value="Arunanchal Pradesh">Arunanchal Pradesh</option>
+			<option value="Assam">Assam</option>
+			<option value="Bihar">Bihar</option>
+			<option value="Chhattisgarh">Chhattisgarh</option>
+			<option value="Goa">Goa</option>
+			<option value="Gujarat">Gujarat</option>
+			<option value="Haryana">Haryana</option>
+			<option value="Himachal Pradesh">Himachal Pradesh</option>
+			<option value="Jharkhand">Jharkhand</option>
+			<option value="Karnataka">Karnataka</option>
+			<option value="Kerala">Kerala</option>
+			<option value="Madhya Pradesh">Madhya Pradesh</option>
+			<option value="Maharashtra">Maharashtra</option>
+			<option value="Manipur">Manipur</option>
+			<option value="Meghalaya">Meghalaya</option>
+			<option value="Mizoram">Mizoram</option>
+			<option value="Nagaland">Nagaland</option>
+			<option value="Odisha">Odisha</option>
+			<option value="Punjab">Punjab</option>
+			<option value="Rajasthan">Rajasthan</option>
+			<option value="Sikkim">Sikkim</option>
+			<option value="Tamil_nadu">Tamil Nadu</option>
+			<option value="Telangana">Telangana</option>
+			<option value="Tripura">Tripura</option>
+			<option value="Uttar_pradesh">Uttar Pradesh</option>
+			<option value="Uttarakhand">Uttarakhand</option>
+			<option value="West_bengal">West Bengal</option>
+		</select>
+		<label for="special">Any special requests:</label>
+		<textarea id="special" name="special" placeholder="..." style="height:200px"></textarea>
+		<label for="date">Select date:</label>
+		<input type="date" id="date" name="date">
+		<label for="count">No. of people:</label>
+		<input type="text" id="count" name="count" placeholder="1,2,...">
+		<button onclick="showAlert()" name="submit">Register</button>
+		<footer class="footer">
+			<div class="footer_left">
+				<h5>SECTION:</h5>
+				<p>7CSE7</p>
+				<p>CSE 256</p>
+				<p>Internet of Technologies</p>
+				<p>Batch 9</p>
+			</div>
+			<div class="footer_center">
+				<h5>GROUP MEMBERS:</h5>
+				<p>NISHANT VERMA</p>
+				<p>NISHANTH</p>
+				<p>NISHITHA Y</p>
+				<p>NITHESH KUMAR</p>
+				<p>NOMULA MOHANSATISH</p>
+			</div>
+			<div class="footer_right">
+				<h5>ROLL NOS.:</h5>
+				<p>20191CSE0391</p>
+				<p>20191CSE0392</p>
+				<p>20191CSE0393</p>
+				<p>20191CSE0394</p>
+				<p>20191CSE0396</p>
+			</div>
+		</footer>
+	</form>
+</body>
+</html>
