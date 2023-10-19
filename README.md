@@ -4,4 +4,4 @@ Sample website for zoo.
 
 ## Setup
 
-Open "index.html" to begin.
+Open "index.html" on browser to begin. Make sure all files are in same folder.
